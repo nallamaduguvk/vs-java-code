@@ -1,8 +1,8 @@
 class human
 {
-        private int age = 24;
+        private int age;
         private String name ="karthik";
-        public int getAge()
+        public int setAge()
         {
             return age;
         }
@@ -18,7 +18,7 @@ class human
 public class object {
     public static void main(String[] args) {
         human obj = new human();
-        System.out.println(obj.getAge() + " : "+obj.getName());
+        System.out.println(obj.setAge() + " : "+obj.getName());
     }
     
 }
